@@ -100,12 +100,7 @@ public class AlertDialog extends Dialog implements DialogInterface {
      */
     public static final int THEME_MATERIAL = 6;
 
-    /**
-     * Special theme constant for {@link #AlertDialog(Context, int)}: use
-     * the material alert theme with a light background.
-     */
-    public static final int THEME_MATERIAL_LIGHT = 7;
-    
+
     /**
      * No layout hint.
      * @hide
@@ -162,8 +157,6 @@ public class AlertDialog extends Dialog implements DialogInterface {
             return com.android.internal.R.style.Theme_DeviceDefault_Light_Dialog_Alert;
         } else if (resid == THEME_MATERIAL) {
             return com.android.internal.R.style.Theme_Material_BlissDark_Dialog_Alert;
-        } else if (resid == THEME_MATERIAL_LIGHT) {
-            return com.android.internal.R.style.Theme_Material_BlissLight_Dialog_Alert;
         } else if (resid >= 0x01000000) {   // start of real resource IDs.
             return resid;
         } else {
