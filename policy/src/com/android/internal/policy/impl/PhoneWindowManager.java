@@ -7029,7 +7029,7 @@ public class PhoneWindowManager implements WindowManagerPolicy {
                             PackageManager.FEATURE_TELEVISION)) {
                         theme = com.android.internal.R.style.Theme_Leanback_Dialog_Alert;
                     } else {
-                        theme = 0;
+                        theme = 6; // Switch between 6 and 7 to switch between THEME_MATERIAL and THEME_MATERIAL_LIGHT
                     }
 
                     mBootMsgDialog = new ProgressDialog(mContext, theme) {
