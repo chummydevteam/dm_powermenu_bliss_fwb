@@ -14,6 +14,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <color name="material_blue_grey">#ff212021</color>
-    <drawable name="material_bg_blue_grey">@color/material_blue_grey</drawable>
+     <color name="dark_material_dialog_background">#ff212021</color>
+     <color name="light_material_dialog_background">#ffeeeeee</color>
+        
+     <drawable name="dark_material_bg">@color/dark_material_dialog_background</drawable>
+     <drawable name="light_material_bg">@color/light_material_dialog_background</drawable>
 </resources>
