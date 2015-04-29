@@ -236,28 +236,6 @@ please see styles_device_defaults.xml.
         <item name="textAllCaps">true</item>
         <item name="textColor">?attr/textColorPrimary</item>
     </style>
-    
-    <!-- Dark Material style dialogs -->
-    
-    <style name="TextAppearance.BlissDark.Material.Large">
-        <item name="textSize">@dimen/text_size_large_material</item>
-        <item name="textColor">@color/primary_text_material_dark</item>
-    </style>
-
-    <style name="TextAppearance.BlissDark.Material.Small">
-        <item name="textSize">@dimen/text_size_small_material</item>
-        <item name="textColor">@color/secondary_text_material_dark</item>
-    </style>
-    
-    <style name="TextAppearance.BlissLight.Material.Large">
-        <item name="textSize">@dimen/text_size_large_material</item>
-        <item name="textColor">@color/primary_text_material_light</item>
-    </style>
-
-    <style name="TextAppearance.BlissLight.Material.Small">
-        <item name="textSize">@dimen/text_size_small_material</item>
-        <item name="textColor">@color/secondary_text_material_light</item>
-    </style>
 
     <!-- Deprecated text styles -->
 
