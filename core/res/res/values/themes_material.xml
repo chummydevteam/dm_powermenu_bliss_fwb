@@ -1296,15 +1296,4 @@ please see themes_device_defaults.xml.
         <item name="colorBackground">@drawable/dark_material_bg</item>
         <item name="colorAccent">@color/white</item>
     </style>
-    
-    <style name="Theme.Material.BlissLight.Dialog.Dark" parent="Theme.Material.BaseDialog">
-        <item name="colorBackground">@drawable/light_material_bg</item>
-        <item name="windowBackground">@drawable/dialog_background_material</item>
-        <item name="colorControlActivated">@color/accent_material_light</item>
-    </style>
-
-    <style name="Theme.Material.BlissLight.Dialog.Alert" parent="Theme.Material.Light.Dialog.BaseAlert">
-        <item name="colorBackground">@drawable/light_material_bg</item>
-        <item name="colorAccent">@color/accent_material_light</item>
-    </style>    
 </resources>
